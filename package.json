@@ -1,0 +1,33 @@
+{
+  "name": "admin-bootstrap-angularjs",
+  "version": "1.0.0",
+  "description": "bootstrap 3, angularjs",
+  "main": "index.html",
+  "dependencies": {
+    "gulp-ngmin": "^0.3.0",
+    "gulp-rename": "^2.0.0",
+    "gulp": "^4.0.2",
+    "gulp-strip-debug": "^3.0.0",
+    "gulp-uglify": "^3.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tymonlin/admin-bootstrap-angularjs.git"
+  },
+  "keywords": [
+    "bootstrap",
+    "angular",
+    "angularjs",
+    "admin"
+  ],
+  "author": "Tymon.Lin <TymonLin@163.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tymonlin/admin-bootstrap-angularjs/issues"
+  },
+  "homepage": "https://github.com/tymonlin/admin-bootstrap-angularjs#readme"
+}
