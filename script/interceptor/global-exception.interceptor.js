@@ -1,9 +1,9 @@
 /**
  * Created by linchunhui on 16/6/27.
  */
-define(["angular", "base/tip/Toast"],
+define(["angular", "base/tip/growl-tip"],
     function(angular){
-        return angular.module("interceptor.global.exception", ["base.security", "base.tip.growl-tip"])
+        return angular.module("module.interceptor.exception", ["module.common.tip.growl-tip"])
             .factory("GlobalExceptionInterceptor", ["$state", "$q", "GrowlTip",
                 function($state, $q, GrowlTip){
                     return {

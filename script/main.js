@@ -14,7 +14,7 @@ require.config({
         "angular-ui-router": "../components/angular-ui-router/release/angular-ui-router.min",
         "angular-file-upload":"../components/angular-file-upload-master/dist/angular-file-upload.min",
         "domReady": "../components/domReady/domReady",
-        "dialog":"../components/dialog/js/dialog",
+        "dialog":"../components/dialog/dialog",
         "loading-bar": "../components/angular-loading-bar/src/loading-bar",
         "bootstrap": "bootstrap",
         "nl-tables": "../components/nl-tables3/nl-tables3.min",

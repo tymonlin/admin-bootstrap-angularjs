@@ -4,9 +4,9 @@
  */
 define(["angular", "ngCookies"],
     function (angular) {
-        return angular.module("module.cpf.main.controller", ["ngCookies"])
-            .controller('mainCtrl', ["$scope", "$state", "$cookies", "properties", "GrowlTip",
-                function ($scope, $state, $cookies, properties, GrowlTip) {
+        return angular.module("module.main.controller", ["ngCookies"])
+            .controller("MainCtrl", ["$scope", "$state", "$cookies", "properties",
+                function ($scope, $state, $cookies, properties) {
                     // i18n设置
                     $scope.WebSiteName = properties.WebSiteName;
                     $scope.$state = $state;

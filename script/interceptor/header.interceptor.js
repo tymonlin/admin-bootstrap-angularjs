@@ -1,9 +1,9 @@
 /**
  * Created by linchunhui on 16/6/27.
  */
-define(["angular", "ngCookies", "base/tip/Toast"],
+define(["angular", "ngCookies"],
     function(angular){
-        return angular.module("interceptor.header", ["ngCookies"])
+        return angular.module("module.interceptor.header", ["ngCookies"])
             .factory("HeaderInterceptor", ["$rootScope", "$cookies", "properties",
                 function($rootScope, $cookies, properties){
                     return {

@@ -1,16 +1,15 @@
 /**
  * Created by linchunhui on 2018/2/4.
  */
-define(['require'],
+define(["require"],
     function (require) {
         return require(["app"], function (app) {
-            app.config(['$stateProvider', '$urlRouterProvider', "httpVersion", function ($stateProvider, $urlRouterProvider, httpVersion) {
-                $urlRouterProvider.when("", "/login");
+            app.config(["$stateProvider", "$urlRouterProvider", "httpVersion", function ($stateProvider, $urlRouterProvider, httpVersion) {
+                $urlRouterProvider.when("", "/index");
                 $stateProvider
                     .state("login", {
                         url: "/login",
-                        templateUrl: "login.html?v=" + httpVersion(),
-                        controller: "LoginCtrl"
+                        templateUrl: "login.html?v=" + httpVersion()
                     })
                     .state("common", {
                         url: "/common",

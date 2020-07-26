@@ -4,7 +4,7 @@
 define(["angular"],
     function(angular){
         return angular.module("interceptor", [])
-            .factory('TimestampMarker', ["$rootScope", function ($rootScope) {
+            .factory("TimestampMarker", ["$rootScope", function ($rootScope) {
                 var timestampMarker = {
                     request: function (config) {
                         $rootScope.loading = true;
